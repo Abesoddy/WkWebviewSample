@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="wkwebviewSample.MainPage">
+
+    <ContentPage.Content>
+            
+        <Button
+            Clicked="Button_Clicked"
+            Text="Open webview"
+            Padding="10"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            BackgroundColor="Aqua"
+            TextColor="Black"/>
+
+    </ContentPage.Content>
+</ContentPage>
