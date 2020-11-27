@@ -129,6 +129,9 @@
     <PackageReference Include="SharpZipLib.Portable">
       <Version>0.86.0.3</Version>
     </PackageReference>
+    <PackageReference Include="Zebble.WebView">
+      <Version>4.3.263</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>

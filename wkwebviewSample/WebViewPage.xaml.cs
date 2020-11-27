@@ -49,7 +49,7 @@ namespace wkwebviewSample
 
         private async void OnNavigated(object sender, WebNavigatedEventArgs e)
         {
-            SetFontSize(200);
+            SetFontSize(100);
 
             // Replace url style css
             await ReplaceUrlStyle();
